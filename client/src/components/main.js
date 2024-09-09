@@ -36,7 +36,7 @@ const Main = () => {
   }, [loginStatus]);
 
   return (
-    <div className="">
+    <div>
       {loginStatus ? (
         <>
           <MainNavbar loginCbHandler={loginCbHandler}></MainNavbar>
